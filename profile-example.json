@@ -1,0 +1,52 @@
+{
+  "profil": {
+    "nom": "",
+    "titre": "",
+    "localisation": "",
+    "contact": {
+      "email": "",
+      "telephone": "",
+      "site_web": ""
+    },
+    "resume": "",
+    "mots_cles": [
+    ],
+    "langues": [
+    ],
+    "soft_skills": [
+    ]
+  },
+  "experience": [
+    {
+      "poste": "",
+      "entreprise": "",
+      "date_debut": "",
+      "date_fin": "",
+      "description": "",
+      "technologies_utilisees": []
+    }
+  ],
+  "formation": [
+    {
+      "diplome": "",
+      "etablissement": "",
+      "annee": ""
+    }
+  ],
+  "competences": [],
+  "projets": [
+    {
+      "nom": "",
+      "description": "",
+      "technologies": [],
+      "lien": ""
+    }
+  ],
+  "certifications": [
+    {
+      "titre": "",
+      "organisme": "",
+      "date_obtention": ""
+    }
+  ]
+}

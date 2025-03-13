@@ -1,0 +1,175 @@
+{
+    "profil":         {
+        "nom":          "Dimitri Guitton",
+        "titre":        "Développeur Full Stack",
+        "localisation": "Fontenay-le-Comte, France",
+        "contact":      {
+            "email":     "dimitri.guitton.dev@gmail.com",
+            "telephone": "06 46 22 82 80",
+            "site_web":  "https://www.dimitri-guitton.com/"
+        },
+        "resume":       "Développeur web full-stack spécialisé dans le back-end avec PHP (Symfony) et compétent en front-end (React, Vue.js). Orienté résultats, garant de la qualité du code et de la performance des applications. Collaboratif, autonome et minutieux.",
+        "mots_cles":    [
+            "Full Stack",
+            "PHP",
+            "Symfony",
+            "JavaScript",
+            "React",
+            "Vue.js",
+            "Freelance"
+        ],
+        "langues":      [
+            "Français",
+            "Anglais"
+        ],
+        "soft_skills":  [
+            "Travail en équipe",
+            "Autonomie",
+            "Communication",
+            "Orientation résultat"
+        ]
+    },
+    "experience":     [
+        {
+            "poste":                  "Développeur Full Stack",
+            "entreprise":             "Indépendant",
+            "date_debut":             "2019-04",
+            "date_fin":               "présent",
+            "description":            "Expérience freelance en tant que développeur full-stack, alliant créativité, autonomie et succès dans divers projets digitaux.",
+            "technologies_utilisees": [
+                "PHP",
+                "Symfony",
+                "JavaScript",
+                "React",
+                "Vue.js",
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "poste":                  "Développeur Web et Mobile",
+            "entreprise":             "6nApps",
+            "date_debut":             "2018-10",
+            "date_fin":               "2019-04",
+            "description":            "Première expérience professionnelle dans une entreprise de développement web, renforçant mes compétences techniques. Utilisation de Symfony pour le back-end, HTML/CSS/JavaScript pour le front-end et React Native pour le développement mobile.",
+            "technologies_utilisees": [
+                "Symfony",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React Native"
+            ]
+        }
+    ],
+    "formation":      [
+        {
+            "diplome":       "Licence Professionnelle Informatique et Répartie Mobile",
+            "etablissement": "IUT La Rochelle",
+            "annee":         "2018"
+        },
+        {
+            "diplome":       "DUT Informatique",
+            "etablissement": "IUT La Rochelle",
+            "annee":         "2017"
+        }
+    ],
+    "competences":    [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "PHP",
+        "Symfony",
+        "Python",
+        "Frameworks (React, Vue, Angular)",
+        "Node.js",
+        "Bases de données SQL",
+        "Git",
+        "Méthodes agiles",
+        "Docker",
+        "CI/CD",
+        "Tests unitaires",
+        "Performance web",
+        "Développement mobile",
+        "Applications natives"
+    ],
+    "projets":        [
+        {
+            "nom":          "SaaS MyTroupe",
+            "description":  "Application SaaS développée avec Symfony pour les troupes de théâtre, d'improvisation et autres groupes artistiques. Gestion des membres, spectacles, répétitions, lieux de représentation, documents, finances et communications, avec suivi des réservations et ventes de billets.",
+            "technologies": [
+                "Symfony",
+                "PHP",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "lien":         ""
+        },
+        {
+            "nom":          "Version SaaS \"Développe Tes Ventes\"",
+            "description":  "Application SaaS B2B élaborée avec Symfony permettant aux entreprises de lancer des sites web-apps performants et évolutifs, combinant simplicité et puissance pour une gestion efficace et une personnalisation poussée.",
+            "technologies": [
+                "Symfony",
+                "PHP",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "lien":         ""
+        },
+        {
+            "nom":          "DCI",
+            "description":  "Application de bureau développée pour Eco Atlantique avec Vue.js et Electron pour faciliter la création de devis sur site par les commerciaux, avec synchronisation en temps réel avec l'ERP existant.",
+            "technologies": [
+                "Vue.js",
+                "Electron",
+                "TypeScript"
+            ],
+            "lien":         ""
+        },
+        {
+            "nom":          "ERP Eco Atlantique",
+            "description":  "Système ERP sur mesure développé avec Symfony pour Eco Atlantique, centralisant la gestion des commerciaux et l'élaboration des devis, simplifiant les démarches administratives liées aux aides énergétiques et optimisant le conseil en transition énergétique.",
+            "technologies": [
+                "Symfony",
+                "PHP",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "lien":         ""
+        },
+        {
+            "nom":          "ERP FRENE",
+            "description":  "Plateforme développée avec Symfony pour le FRENE, permettant de cartographier et suivre les interactions des réseaux et associations affiliés, facilitant le suivi des actions éducatives et l'impact environnemental et social.",
+            "technologies": [
+                "Symfony",
+                "PHP",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "lien":         ""
+        },
+        {
+            "nom":          "Plateforme e-learning sur la prévention des risques professionnels",
+            "description":  "Application développée pour une start-up rencontrée lors d'un événement French Tech, lauréate du prix de l'innovation 'Préventica PARIS 2021'. La plateforme attribue automatiquement des contenus personnalisés aux salariés et suit la validation et le maintien des acquis.",
+            "technologies": [
+                "Symfony",
+                "PHP",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "lien":         ""
+        }
+    ],
+    "certifications": [
+        {
+            "titre":          "Certification Opquast",
+            "organisme":      "Opquast",
+            "date_obtention": "2018"
+        }
+    ]
+}

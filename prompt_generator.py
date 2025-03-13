@@ -1,11 +1,22 @@
 #!/usr/bin/env python3
 import json
+import sys, os
+
+def resource_path(relative_path):
+    """Retourne le chemin correct des fichiers selon si on est en mode développement ou exécutable"""
+    if hasattr(sys, '_MEIPASS'):  # Vérifier si on est dans un exécutable PyInstaller
+        base_path = sys._MEIPASS
+    else:
+        base_path = os.path.abspath(".")  # Mode développement
+
+    return os.path.join(base_path, relative_path)
 
 def load_profile_from_json(file_path):
     """
     Charge le profil utilisateur à partir d'un fichier JSON.
     """
-    with open(file_path, 'r', encoding = 'utf-8') as f:
+    profile_json_path = resource_path(file_path)
+    with open(profile_json_path, 'r', encoding = 'utf-8') as f:
         data = json.load(f)
     return data
 
@@ -17,6 +28,7 @@ def build_prompt(profile_data, offre_text, extra_info=None):
     Args:
         profile_data (dict): Données du profil (chargées depuis le JSON).
         offre_text (str): Texte de l'offre d'emploi.
+        extra_info (str): Informations supplémentaires à ajouter au prompt.
 
     Returns:
         str: Le prompt complet.
